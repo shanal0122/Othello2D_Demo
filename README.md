@@ -3,7 +3,7 @@
 You can play othello with your friends far away.
 
 ## Requirement
-Validating. At least, I've confirmed that this works on Atom.
+Validating . At least, I've confirmed that this works on Atom.
 
 ## Install
 Please you and one of your friend install this 2 files and 3 pictures.
