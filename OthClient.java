@@ -28,13 +28,13 @@ public class OthClient extends JFrame implements MouseListener, WindowListener{
 		greenIcon = new ImageIcon("Green.jpg");
 
 		//IPアドレスを入力するダイアログ
-		String ipAddress = JOptionPane.showInputDialog(null,"サーバーのIPアドレスを入力してください。localhostならば何も入力しないでください。","IPアドレスの入力",JOptionPane.QUESTION_MESSAGE);
+		String ipAddress = JOptionPane.showInputDialog(null,"Please enter Server IP adress. Do not enter anything if it's localhost.","enter IP adress",JOptionPane.QUESTION_MESSAGE);
 		if(ipAddress.equals("")){
 			ipAddress = "localhost";
 		}
 
 		//名前の入力ダイアログ
-		String myName = JOptionPane.showInputDialog(null,"名前を入力してください","名前の入力",JOptionPane.QUESTION_MESSAGE);
+		String myName = JOptionPane.showInputDialog(null,"Please enter your name.","enter your name",JOptionPane.QUESTION_MESSAGE);
 		if(myName.equals("")){
 			myName = "No name";
 		}
