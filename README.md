@@ -3,11 +3,19 @@
 You can play othello with your friends far away.
 
 ## Requirement
-Validating.
-At least, I've confirmed that this works on Atom.
+Validating. At least, I've confirmed that this works on Atom.
+
+## Install
+Please you and one of your friend install this 2 files and 3 pictures.
 
 ## Usage
-Please enter Server IP adress. Do not enter anything if it's localhost.
+Either of you or your friend starts up "MyServer.java", and both of you start up "OthClient.java". At 1st dialog, please enter Server IP adress. Do not enter anything if it's localhost. At 2nd dialog, please enter your name. And then, othello starts.
+
+## Function of ohello
+| board button | You can put stones. |
+| "PASS" button | You can skip your turn if you can put no stones anywhere. |
+* "Give Up" button : You can finish the game immidiately, but you are sure to lose. On the contrary, the opponent can win and show that you gave up.
+
 
 ## Demo
 ![suteru](https://user-images.githubusercontent.com/29913450/59360269-c7d22a80-8d6a-11e9-8a2a-d8b5d28b7542.png)
